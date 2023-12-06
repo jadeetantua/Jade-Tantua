@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Get to Know Me</title>
+    <style>
+        body {
+            background-color: #ffdde1; /* Light pink with slight violet tint */
+            color: #333; /* Dark gray text color */
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            text-align: center;
+        }
+
+        #container {
+            max-width: 500px;
+            padding: 50px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Subtle box shadow */
+            background-color: #fff; /* White container background */
+        }
+
+        h1 {
+            font-family: 'Caveat', cursive;
+            font-size: 2em;
+            color: #8a7b66; /* Light brownish title color */
+            margin-bottom: 20px;
+        }
+
+        p {
+            font-size: 16px;
+            line-height: 1.5;
+            color: #666; /* Medium gray text color */
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        p img {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            margin-right: 20px;
+            margin-left: 5px;
+        }
+
+        blockquote {
+            font-style: italic;
+            color: #555; /* Dark gray for the quote */
+            margin: 20px 0;
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <h1>Get to Know Me</h1>
+	<p><img src="jade.jpg" alt="Diana Jade"> Name: Diana Jade Tantua</p>
+        <p>Age: 20 years old</p>
+	<p>Was Born on October </p>
+	<p><img src="libra.jpg" alt="Libra">Born on a sign of Libra</p>
+        <p>Location: Quezon City</p>
+        <p>Favorite Colors: Blue and Red</p>
+        <p>Hobbies: Watching movies/series, playing online games, and sleeping</p>
+	<p><img src="finn.jpg" alt="Finn"> This is my Cat! His name is Finn. </p>
+        <blockquote>"Life is a climb, but the view is great."</blockquote>
+    </div>
+</body>
+</html>
